@@ -1,18 +1,14 @@
-# restplorer
+# Restplorer
 
-> Simple rest testing tool built with Vue.js
+I created it to help anyone who wants to explore some APIs, whenever and wherever they are, without the hussle to install an app. Whether you're in a train, climb a mountain, or in a sunny beach, easy, we've got your back. Feel free to file some [issues/suggestions](https://github.com/rizqyhi/restplorer/issues).</p>
 
-## Build Setup
+Anyway, thanks for using Resplorer. :)
 
-``` bash
-# install dependencies
-npm install
+### Ingredients
 
-# serve with hot reload at localhost:8080
-npm run dev
+I built this while learning Vue.js, so here they are:
 
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* [Vue.js](https://vuejs.org)
+* [vue-resource](https://github.com/vuejs/vue-resource)
+* [jQuery](https://jquery.com)
+* [Semantic UI](http://semantic-ui.com)

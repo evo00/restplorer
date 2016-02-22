@@ -1,7 +1,7 @@
 <template>
 <app-header></app-header>
 
-<div class="ui two column grid container">
+<div class="ui stackable two column grid container">
   <rucksack></rucksack>
   <destination></destination>
 </div>
@@ -18,6 +18,12 @@ export default {
   data () {
     return {
       msg: 'Hello Vue!'
+    }
+  },
+
+  events: {
+    'rucksackPacked': function(e) {
+      this.$broadcast('rucksackPacked', e)
     }
   }
 }

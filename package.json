@@ -1,6 +1,7 @@
 {
   "name": "restplorer",
-  "description": "Simple rest testing tool built with Vue.js",
+  "version": "1.0.0",
+  "description": "Simple API testing tool built with Vue.js",
   "author": "Rizqy H. <rizqy22@gmail.com>",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
@@ -8,6 +9,7 @@
   },
   "dependencies": {
     "jquery": "^2.2.0",
+    "prismjs": "^1.4.1",
     "semantic-ui-css": "^2.1.8",
     "vue": "^1.0.0",
     "vue-resource": "^0.7.0"

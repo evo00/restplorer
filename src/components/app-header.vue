@@ -6,13 +6,6 @@
 </header>
 </template>
 
-<script>
-export default {
-	data() {
-	}
-}
-</script>
-
 <style>
 .app-header {
   padding: 3rem 0;
@@ -23,10 +16,16 @@ export default {
 }
 
 .site-title {
+  font-weight: 300;
   text-align: center;
 }
 
 .site-title a {
   color: #fff;
+}
+
+.site-title a .icon {
+  width: auto;
+  margin: 0 3px;
 }
 </style>

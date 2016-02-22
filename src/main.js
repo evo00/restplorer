@@ -1,10 +1,15 @@
 import Vue from 'vue'
+import VueResource from 'vue-resource'
+import Prism from 'prismjs'
 import App from './App.vue'
-import jQuery from 'jquery'
 
-$ = window.jQuery = window.$ = jQuery
+Vue.use(VueResource)
 
 new Vue({
   el: 'body',
-  components: { App }
+  components: { App },
+  ready: function() {
+    jQuery('.ui.radio.checkbox').checkbox()
+    Prism.highlightAll()
+  }
 })
