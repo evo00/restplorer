@@ -1,7 +1,7 @@
 <template>
 <header class="app-header">
 	<div class="ui one column grid container">
-		<h1 class="site-title column"><a href="/">Restpl<i class="map icon"></i>rer</a></h1>
+		<h1 class="site-title column"><a href="/restplorer">Restpl<i class="map icon"></i>rer</a></h1>
 	</div>
 </header>
 </template>
